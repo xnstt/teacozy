@@ -4,4 +4,55 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  margin: 0;
+  text-align: center;
+}
+
+div {border: 1px red solid}
+
+header {
+  display: flex;
+  position: fixed;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  background-color: black;
+}
+
+header nav {
+  text-decoration: underline;
+  text-align: right;
+}
+
+nav span {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.logo {
+  display: flex;
+  margin-right: 10px;
+  height: 50px;
+}
+
+.mission {
+  display: flex;
+  justify-content: center;
+}
+
+.placeholder {
+  display: flex;
+  justify-content: center;
+  height: 700px;
+  width: 1200px;
+  align-items: center;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg) ;
+}
+
+.statement {
+  background-color: black;
+  width: inherit;
 }
