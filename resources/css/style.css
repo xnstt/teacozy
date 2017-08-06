@@ -38,12 +38,12 @@ nav span {
   height: 50px;
 }
 
-.mission {
+.placeholder {
   display: flex;
   justify-content: center;
 }
 
-.placeholder {
+.mission {
   display: flex;
   justify-content: center;
   height: 700px;
@@ -55,4 +55,29 @@ nav span {
 .statement {
   background-color: black;
   width: inherit;
+}
+
+.teamenu {
+  display: flex;
+  justify-content: center;
+  width: 1000px;
+  flex-direction: column;
+}
+
+.teatitle {
+
+}
+
+.flexcontain {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.flexitem {
+  width: 300px;
+}
+
+.flexitem img {
+  height: 200px;
 }
