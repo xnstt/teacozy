@@ -8,8 +8,6 @@ body {
   text-align: center;
 }
 
-div {border: 1px red solid}
-
 header {
   display: flex;
   position: fixed;
@@ -34,7 +32,7 @@ nav span {
 
 .logo {
   display: flex;
-  margin-right: 10px;
+  margin-left: 10px;
   height: 50px;
 }
 
@@ -64,20 +62,53 @@ nav span {
   flex-direction: column;
 }
 
-.teatitle {
+.subtitle {
 
 }
 
 .flexcontain {
   display: flex;
-  justify-content: space-around;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .flexitem {
   width: 300px;
+  padding: 10px;
 }
 
 .flexitem img {
   height: 200px;
+}
+
+.locations {
+  display: flex;
+  justify-content: center;
+  height: 500px;
+  flex-direction: column;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg")
+}
+
+.box {
+  margin: 20px 15px;
+  opacity: 1;
+  width: 300px;
+  background-color: black;
+}
+
+.locations h2 {
+  margin-bottom: 0;
+}
+
+.contact {
+  height: 200px;
+}
+
+.contact h2 {
+  padding: 10px;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 20px;
 }
